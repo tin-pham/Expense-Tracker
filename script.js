@@ -11,6 +11,8 @@ const form = document.querySelector('form');
 let messages = [];
 
 function errorCheck() {
+  messages = [];
+
   if (name.value === '') {
     messages.push('Please type the name');
   }
