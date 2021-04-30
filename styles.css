@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-size: 1.5rem;
+}
+
+tr:nth-child(even) {
+  background: #d3d3d3;
+}
+
+th,
+td,
+table {
+  padding: 1rem;
+  border-collapse: collapse;
+}
